@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  
+</head>
+<body>
+  <header class="container mx-auto">
+    <section>
+      <!-- nav bar -->
+      <div class="navbar bg-base-100 lg:5 my-5">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                <li><a class="hover:text-red-600 hover:bg-transparent">Home</a></li>
+                <li><a class="hover:text-red-600 hover:bg-transparent">About</a></li>
+                <li><a class="hover:text-red-600 hover:bg-transparent">Pages</a></li>
+                <li><a class="hover:text-red-600 hover:bg-transparent">Blog</a></li>
+                <li><a class="hover:text-red-600 hover:bg-transparent">Contact</a></li>
+              </ul>
+          </div>
+          <a class="lg:text-4xl text-2xl mx-4 font-extrabold">P-Ticket</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 text-[18px]">
+            <li><a class="hover:text-red-600 hover:bg-transparent">Home</a></li>
+            <li><a class="hover:text-red-600 hover:bg-transparent">About</a></li>
+            <li><a class="hover:text-red-600 hover:bg-transparent">Pages</a></li>
+            <li><a class="hover:text-red-600 hover:bg-transparent">Blog</a></li>
+            <li><a class="hover:text-red-600 hover:bg-transparent">Contact</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end gap-6" >
+          <a class="btn text-[#1DD100] text-[20px] px-8 py-3 bg-[#E8fae5] hover:bg-[#e8fae5]" >Bus<span class="h-6 w-6"><img src="images/bus-icon.png" alt=""></span> </a>
+        </div>
+    </div>
+    </section>
+    <section>
+      <!-- hero section -->
+        <div class="bg-[url('/images/banner.png')] h-[650px] w-auto bg-no-repeat bg-center relative bg-cover rounded-3xl ">
+          <div class="text-center absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
+              <h3 class="text-[64px] text-white font-bold">End-to-End Travel With</h3>
+              <h3 class="text-[64px] text-[#1DD100] font-bold">P Paribahan</h3>
+              <p class="text-[18px] leading-[30px] text-white">Yes, You can run unit texts and view the results directly within the app. The integrated testing features allow for a streamlined</p>
+              <div class="my-4 ">
+                <a href="#" class="btn text-black bg-[#1DD100] px-8 py-3 hover:bg-[#1DD100] font-bold text-[20px] border-0">Buy Ticket</a>
+              </div>
+            </div>
+          
+        </div>
+    </section>
+    <!-- optional section -->
+    <!-- <section class="mt-[-20px] z-10">
+        <div class="flex z-10">
+          <div><img src="images/people.png" alt=""></div>
+          <div>
+            <span>500k+</span>
+            <h4>Registered Users</h4>
+          </div>
+        </div>
+    </section> -->
+    
+  </header>
+
+  <main >
+    <section class="container mx-auto my-20">
+      <div class="text-center text-[40px] font-semibold my-5">
+        <h3>
+          Best Offer for you
+        </h3>
+      </div>
+      <div class="flex">
+        <div class="bg-yellow-400  max-w-xl w-full h-full mx-auto rounded-2xl my-5">
+            <div class="flex justify-between items-center p-12">
+                <div>
+                    <div class="w-full flex-none text-4xl text-black font-bold leading-none">15% OFF</div>
+                    <div class="text-xs my-2 text-sm font-semibold">On Your Next Purchase</div>
+                    <div class="flex-auto text-sm text-gray-600 font-semibold">Use by January 2024</div>
+                </div>
+                <div>
+                  <div class="border- dashed border-white realtive">
+                    <div class="absolute rounded-full w-10 h-10 bg-white mt-[-110px]"></div>
+                    <div class="absolute rounded-full w-10 h-10 bg-white mt-[70px]"></div>
+                </div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold">New15</div>
+                    <div class="flex-auto text-lg text-gray-600 font-semibold my-2 tracking-wider">Coupon Code</div>
+                </div> 
+        </div>
+        </div>
+            <!-- another -->
+            <div class="bg-[#F78C9C] max-w-xl w-full h-full mx-auto rounded-2xl my-5">
+                <div class="flex justify-between items-center p-12">
+                    <div>
+                        <div class="w-full flex-none text-4xl text-black font-bold leading-none">15% OFF</div>
+                        <div class="text-xs my-2 text-sm font-semibold">On Your Next Purchase</div>
+                        <div class="flex-auto text-sm text-gray-600 font-semibold">Use by January 2024</div>
+                    </div>
+                    <div>
+                        <div class="border- dashed border-white realtive">
+                            <div class="absolute rounded-full w-10 h-10 bg-white mt-[-110px]"></div>
+                            <div class="absolute rounded-full w-10 h-10 bg-white mt-[70px]"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="text-3xl font-bold">New15</div>
+                        <div class="flex-auto text-lg text-gray-600 font-semibold my-2 tracking-wider">Coupon Code</div>
+                    </div> 
+            </div>
+            </div>
+          </div>
+          <div class="text-center my-7">
+            <a href="#" class=" btn text-[#1DD100] px-[35px] py-[13px] bg-transparent border-1 rounded-xl border-[#1DD100] hover:bg-transparent hover:border-[#1DD100]" >See All Offers</a>
+          </div>
+    </section>
+    <section class="bg-[#F7F8F8] border-t-2 rounded-t-3xl border-[#1DD100]">
+     <div class="container mx-auto">
+      <div class="py-[50px] text-center">
+        <h3 class="text-center text-[40px] font-semibold my-5">P.H Paribahan</h3>
+        <p class="text-[18px] leading-[30px] text-[#262626]">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined</p>
+      </div>
+    </div>
+    </section>
+  </main>
+</body>
+</html>

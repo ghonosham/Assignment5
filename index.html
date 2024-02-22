@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="dom.js">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css"/>
     <script src="https://cdn.tailwindcss.com"></script>
   
 </head>
@@ -40,7 +40,7 @@
           </ul>
         </div>
         <div class="navbar-end gap-6" >
-          <a class="btn text-[#1DD100] text-[20px] px-8 py-3 bg-[#E8fae5] hover:bg-[#e8fae5]" >Bus<span class="h-6 w-6"><img src="images/bus-icon.png" alt=""></span> </a>
+          <a href="#bus-seat" class="btn text-[#1DD100] text-[20px] px-8 py-3 bg-[#E8fae5] hover:bg-[#e8fae5]" >Bus<span class="h-6 w-6"><img src="images/bus-icon.png" alt=""></span> </a>
         </div>
     </div>
     </section>
@@ -52,7 +52,7 @@
               <h3 class="text-[64px] text-[#1DD100] font-bold">P Paribahan</h3>
               <p class="text-[18px] leading-[30px] text-white">Yes, You can run unit texts and view the results directly within the app. The integrated testing features allow for a streamlined</p>
               <div class="my-4 ">
-                <a href="#" class="btn text-black bg-[#1DD100] px-8 py-3 hover:bg-[#1DD100] font-bold text-[20px] border-0">Buy Ticket</a>
+                <a href="#section-name" class="btn text-black bg-[#1DD100] px-8 py-3 hover:bg-[#1DD100] font-bold text-[20px] border-0">Buy Ticket</a>
               </div>
             </div>
           
@@ -123,7 +123,7 @@
             <a href="#" class=" btn text-[#1DD100] px-[35px] py-[13px] bg-transparent border-1 rounded-xl border-[#1DD100] hover:bg-transparent hover:border-[#1DD100]" >See All Offers</a>
           </div>
     </section>
-    <section class="bg-[#F7F8F8] border-t-2 rounded-t-3xl border-[#1DD100] py-[80px]">
+    <section class="bg-[#F7F8F8] border-t-2 rounded-t-3xl border-[#1DD100] py-[80px] " id="section-name">
      <div class="container mx-auto">
       <div class=" text-center">
         <h3 class="text-center text-[40px] font-semibold my-5">P.H Paribahan</h3>
@@ -144,7 +144,7 @@
               </div>
               
               <div>
-                <a class="btn text-[#1DD100] text-[16px] px-8 py-3 bg-[#E8fae5] hover:bg-[#e8fae5]"> <span class="h-6 w-6"><img src="images/seat-green.png" alt=""></span>40 Seats left</a>
+                <a class="btn text-[#1DD100] text-[16px] px-8 py-3 bg-[#E8fae5] hover:bg-[#e8fae5]"> <span class="h-6 w-6"><img src="images/seat-green.png" alt=""> </span>40 Seats left</a>
               </div>
             </div>
 
@@ -185,7 +185,7 @@
       
     </div>
     </div>
-    <div class="container w-[1170px] bg-white p-5 rounded-2xl flex my-0 mx-auto">
+    <div class="container w-[1170px] bg-white p-5 rounded-2xl flex my-0 mx-auto" id="bus-seat">
       <div class="mx-w-auto px-5 mx-5 border-r-2 border-dashed border-[#111]">
         <h3 class="py-2 my-3 border-b-2 border-dashed border-[#111]">Select Your seat</h3>
         <div class="py-3 my-4 flex justify-between border-b-2 border-dashed border-[#111]">
@@ -307,7 +307,7 @@
             </div>
             <div>
               <div class=" flex flex-row py-[10px] items-center justify-between">
-                <h3>H</h3>
+                <h3>I</h3>
                 <div class="px-[10px] mr-[30px]">
                   <div class="btn px-[35px] py-[15px] mx-[10px]">I1</div>
                   <div class="btn px-[35px] py-[15px] mx-[10px]">I2</div>
@@ -320,7 +320,7 @@
             </div>
             <div>
               <div class=" flex flex-row py-[10px] items-center justify-between">
-                <h3>H</h3>
+                <h3>J</h3>
                 <div class="px-[10px] mr-[30px]">
                   <div class="btn px-[35px] py-[15px] mx-[10px]">J1</div>
                   <div class="btn px-[35px] py-[15px] mx-[10px]">J2</div>
@@ -381,7 +381,7 @@
           </div>
           <div class="mb-[10px]">
             <label for="" Required>Phone Number*</label>
-            <input type="tel" placeholder="Enter your Phone number" class="border-2 h-[50px] w-full rounded-[8px] my-[10px]">
+            <input type="number" placeholder="Enter your Phone number" class="border-2 h-[50px] w-full rounded-[8px] my-[10px]">
           </div>
           <div >
             <label for="">Email ID</label>
